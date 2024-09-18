@@ -2,9 +2,8 @@ import logging
 import uvicorn
 from http.cookiejar import debug
 from urllib.request import localhost
-
 from fastapi import FastAPI
-from model_verification import Item
+from model_validation import Item
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
